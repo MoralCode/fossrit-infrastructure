@@ -28,6 +28,13 @@ matterbridge_networks:
     label: FOSS-M
     homeserver: "https://matrix.org"
     matrix_password: "{{ vault_fossrit_matrix_password }}"
+  fossrit_xmpp:
+    network_name: rit-foss
+    # label: FOSS-XMPP
+    server: "conversations.im:5222"
+    userid: "{{ vault_fossrit_xmpp_userid }}"
+    password: "{{ vault_fossrit_xmpp_password }}"
+    nick: "rit-foss-bridge"
   rit_framework_discord:
     network_name: ritframework
     label: RITFramework
