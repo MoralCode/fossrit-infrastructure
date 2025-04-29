@@ -99,7 +99,7 @@ Label="{{matterbridge_networks.fossrit_xmpp.label}}"
 #Jid your userid
 Jid="{{ matterbridge_networks.fossrit_xmpp.userid }}"
 Password="{{ matterbridge_networks.fossrit_xmpp.password }}"
-Muc="conference.{{ matterbridge_networks.fossrit_xmpp.server }}"
+Muc="{{ matterbridge_networks.fossrit_xmpp.group_server }}"
 Nick="{{ matterbridge_networks.fossrit_xmpp.nick }}"
 RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 

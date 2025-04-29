@@ -32,6 +32,7 @@ matterbridge_networks:
     network_name: rit-foss
     label: FOSS-XMPP
     server: "conversations.im:5222"
+    group_server: "conference.conversations.im"
     userid: "{{ vault_fossrit_xmpp_userid }}"
     password: "{{ vault_fossrit_xmpp_password }}"
     nick: "rit-foss-bridge"
