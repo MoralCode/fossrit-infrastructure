@@ -267,7 +267,7 @@ RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 
 [[gateway]]
 name="gateway_rit"
-enable={{ matterbridge_config.rit.enabled }}
+enable="{{ matterbridge_config.rit.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -279,7 +279,7 @@ enable={{ matterbridge_config.rit.enabled }}
 
 [[gateway]]
 name="gateway_rit_foss_infra"
-enable={{ matterbridge_config.rit_foss_infra.enabled }}
+enable="{{ matterbridge_config.rit_foss_infra.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -299,8 +299,7 @@ enable={{ matterbridge_config.rit_foss_infra.enabled }}
 
 [[gateway]]
 name="gateway_rit_foss"
-enable={{ matterbridge_config.rit_foss.enabled }}
-
+enable="{{ matterbridge_config.rit_foss.enabled }}"
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
     channel="{{ matterbridge_config.rit_foss.irc.channel }}"
@@ -329,7 +328,7 @@ enable={{ matterbridge_config.rit_foss.enabled }}
 # this is a bridge between the #foss channels in many different RIT discord servers
 [[gateway]]
 name="gateway_rit_foss_discord_bridge"
-enable={{ matterbridge_config.rit_foss_discord_bridge.enabled }}
+enable="{{ matterbridge_config.rit_foss_discord_bridge.enabled }}"
 
     [[gateway.inout]]
     account="discord.{{ matterbridge_networks.fossrit_discord.network_name }}"
@@ -350,7 +349,7 @@ enable={{ matterbridge_config.rit_foss_discord_bridge.enabled }}
 
 [[gateway]]
 name="gateway_rit_lug"
-enable={{ matterbridge_config.rit_lug.enabled }}
+enable="{{ matterbridge_config.rit_lug.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -362,7 +361,7 @@ enable={{ matterbridge_config.rit_lug.enabled }}
 
 [[gateway]]
 name="gateway_rit_lug_projects"
-enable={{ matterbridge_config.rit_lug_projects.enabled }}
+enable="{{ matterbridge_config.rit_lug_projects.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -374,7 +373,7 @@ enable={{ matterbridge_config.rit_lug_projects.enabled }}
 
 [[gateway]]
 name="gateway_rit_lug_sysadmin"
-enable={{ matterbridge_config.rit_lug_sysadmin.enabled }}
+enable="{{ matterbridge_config.rit_lug_sysadmin.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -386,7 +385,7 @@ enable={{ matterbridge_config.rit_lug_sysadmin.enabled }}
 
 [[gateway]]
 name="gateway_rit_lug_teleirc"
-enable={{ matterbridge_config.rit_lug_teleirc.enabled }}
+enable="{{ matterbridge_config.rit_lug_teleirc.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -398,7 +397,7 @@ enable={{ matterbridge_config.rit_lug_teleirc.enabled }}
 
 [[gateway]]
 name="gateway_rit_python"
-enable={{ matterbridge_config.rit_python.enabled }}
+enable="{{ matterbridge_config.rit_python.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
@@ -410,7 +409,7 @@ enable={{ matterbridge_config.rit_python.enabled }}
 
 [[gateway]]
 name="gateway_rit_tigeros"
-enable={{ matterbridge_config.rit_tigeros.enabled }}
+enable="{{ matterbridge_config.rit_tigeros.enabled }}"
 
     [[gateway.inout]]
     account="irc.{{ default_irc_network_name }}"
