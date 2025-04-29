@@ -88,6 +88,8 @@ matterbridge_config:
       channel: "-1001091972452"
     matrix:
       channel: "#rit-foss:fedora.im"
+    xmpp:
+      channel: "rit-foss"
 
   rit_foss_discord_bridge:
     enabled: true
