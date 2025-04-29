@@ -8,7 +8,7 @@ Server="{{ default_irc_network_server }}"
 UseTLS=true
 SkipTLSVerify=false
 UseSASL=false
-
+Label="irc"
 Nick="{{ default_irc_bot_nick }}"
 #UseSASL=true
 NickServNick="NickServ"
